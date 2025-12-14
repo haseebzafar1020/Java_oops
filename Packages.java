@@ -7,14 +7,16 @@
  // is tarah kuch buildn aty hn java ki taraf se 
 
 
-import haseeb.acountInfo;
+import haseeb.*;
 
 public class Packages {
     public static void main(String[] args) {
-      acountInfo obj = new acountInfo();
-       obj.name = "haseeb";
-       obj.age = 18;
-       obj.info();
+     car obj = new car();
+     obj.name ="yaris";
+     obj.price = 665456;
+     obj.great();
+
+       
     }
     
 }
